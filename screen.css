@@ -18,7 +18,7 @@ main {
 input[type="text"],
 input[type="email"],
 button {
-	background-color:#fa84d7;
+	background-color: #ffe0f0;
 	color: black;
 	padding: 12px;
 	border: solid;
@@ -30,7 +30,7 @@ button {
 }
 
 button:hover{
-	background-color: #f79cf1;
+	background-color: #ff8ac4;
 }
 
 h1 {
