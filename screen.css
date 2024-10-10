@@ -15,15 +15,18 @@ main {
 	padding: 30px;
 }
 
+input[type="text"],
+input[type="email"],
 button {
 	background-color:#fa84d7;
 	color: black;
 	padding: 12px;
 	border: solid;
+	margin-bottom: 20px; 
 	border-radius: 4px;
 	cursor: pointer;
 	font-size: 16px;
-	width: : 100%;
+	width: 90%;
 }
 
 button:hover{
@@ -35,7 +38,7 @@ h1 {
 }
 
 h2 {
-	color: grey;
+	color: black;
 	font-size: 24px;
 }
 
