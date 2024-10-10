@@ -51,3 +51,30 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 768px) {
+    main {
+        padding: 40px; /* Increase padding for larger screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Larger font size for the main heading */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Larger font size for the subheadings */
+    }
+}
+
+/* Media Query for desktops (min-width: 1024px) */
+@media (min-width: 1024px) {
+    main {
+        max-width: 700px; /* Increase the maximum width for larger screens */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    button {
+        padding: 15px; /* Increase padding for inputs and button */
+    }
+}
