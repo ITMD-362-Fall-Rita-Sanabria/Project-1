@@ -1,13 +1,13 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #ffc9eb;
+	background-color: #f578b6;
 	text-align: center;
 	padding: 20px;
 }
 
 main {
-	background-color: orange;
+	background-color: #f7b7d7;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	max-width: 600px;
@@ -18,7 +18,7 @@ main {
 button {
 	background-color:#fa84d7;
 	color: black;
-	padding 12px;
+	padding: 12px;
 	border: solid;
 	border-radius: 4px;
 	cursor: pointer;
