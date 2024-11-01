@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs"> 
-<head>
-  <meta charset="utf-8">
-  <script src="project1.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="screen.css">
-  <title>Project 1</title>
-</head>
-<body>
-	<main>
-		<img src="images/greycatcute.jpeg" alt="grey cat laying down">
-		<h1>Join our CATalog!</h1>
-		<h2>Do you love Cats?</h2>
-		<h2>Would you like to learn more about Cats weekly?</h2>
-		<p>Sign up now to receive weekly updates about cats</p>
+<html lang="en" class="nojs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="screen.css">
+    <script src="project1.js" async></script>
+    <title>Project 1</title>
+  </head> 
+  <body>
+    <main>
+      <img src="images/greycatcute.jpeg" alt="grey cat laying down">
+      <h1>Join our CATalog!</h1>
+      <h2>Do you love Cats?</h2>
+      <h2>Would you like to learn more about Cats weekly?</h2>
+      <p>Sign up now to receive weekly updates about cats</p>
 
-		<form class="singup-form" id="signupform">
-				<label for="firstname">First Name</label>
-				<input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required>
+      <form class="signup-form" id="signupform" method="get" action="#null" autocomplete="on">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required>
 
-				<label for="lastname">Last Name</label>
-				<input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name" required>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name" required>
 
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
 
-				<button id="submitbtn" type="submit">Sign Up Now</button>
-		</form>
-	</main>
-</body>
+        <button id="submitbtn" type="submit">Sign Up Now</button>
+      </form>
+    </main>
+  </body>
+</html>
